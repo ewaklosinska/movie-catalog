@@ -1,0 +1,100 @@
+body {
+    height: 100vh;
+    font-family: Helvetica;
+    background-color: #021a36;
+}
+
+html {
+   
+
+}
+
+div.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #021a36;
+}
+
+
+header, nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 35px;
+    height: 150px;
+}
+
+header img {
+    width: 15vw;
+}
+
+header h1 {
+    margin-right: 40px;
+    font-size: 38px;
+    color: #38aecc;
+}
+
+header h1 i {
+    padding-right: 10px;
+}
+
+.searchBtn {
+    line-height: 200%;
+    background-color: #114b5f;
+}
+header input {
+    margin-right: 40px;
+    line-height: 200%;
+    background-color: #114b5f;
+    border: none;
+    font-family: Helvetica, sans-serif;
+    color:#38aecc;
+    font-size: 20px
+}
+
+header input::-webkit-input-placeholder {
+    color: #38aecc;
+  }
+
+header button {
+    border: none;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    color: #38aecc;
+    cursor: pointer;
+}
+
+button.logIn {
+    background-color: #021a36;
+    display: flex;
+}
+
+.logInIcon {
+    margin-right: 10px;
+    color: #38aecc;
+}
+
+nav {
+    padding: 0;
+    align-items: flex-start;
+    height: 100px;
+}
+
+nav a {
+    margin-right: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #38aecc;
+}
+
+nav a:hover {
+    color: #fadceb;
+}
+
+nav a i {
+    padding-right: 6px;
+}
+
+main {
+    min-height: calc(100vh - 335px);
+}
